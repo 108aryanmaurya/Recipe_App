@@ -1,0 +1,314 @@
+.flex{
+    display: flex;
+}
+.justify-content{
+    justify-content: center;
+}
+.align-items{
+    align-items: center;
+} 
+
+*{
+    margin: 0;
+    padding: 0;
+}
+.flex-dir{
+    /* flex-direction: row-reverse; */
+}
+
+.flex{
+    display: flex;
+}
+.heart:hover{
+ color: blueviolet;
+}
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* height: 100vh; */
+}
+h4{
+    margin-bottom: 15px;
+}
+.header{
+justify-content: space-between;
+padding: 0 55px;
+}
+
+.header input{
+    width: 200px;
+    padding: 7px;
+}
+.container{
+    /* display: flex; */
+    border: 2px solid black;
+    width: 60vh;
+    padding: 10px 0;
+    /* margin: auto; */
+    /* height: 50vh; */
+    
+}
+ul li img{
+    /* width: 100%; */
+    width: 90px;
+    margin: 5px 20px;
+box-shadow: 0 0 11px 5px rgb(232, 125, 25);
+    
+    border-radius: 60px;
+    /* margin: 10px; */
+    /* margin: 0 10px; */
+    
+}
+
+.submit{
+    background-color: white;
+    border: none;
+    font-size: 27px;
+    margin-left: 4px;
+}
+.r-m img{
+    width: 100%;
+    border-radius: 10px;
+}
+.v-v img{
+    width: 100%;
+    border-radius: 10px;
+}
+ul li{
+    /* margin: 0 10px; */
+    text-align: center;
+    list-style: none;
+    /* width: 300px; */
+    margin: 0 10px;
+    /* width: 50vh; */
+}
+/* #fav-meal li p{
+    display: inline-block;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    width:75px;
+    /* height: 75px; */
+/* }  */
+*/
+/* #fav-meal li:hover{
+    white-space: normal;
+overflow:auto;
+} */
+
+.fav-meal{
+    overflow-x: scroll;
+    width: 60vh;
+    
+    padding: 10px 0;
+    scrollbar-width: none;
+    /* overflow: hidden; */
+    
+}
+.hed-sec{
+    overflow-x: scroll;
+    font-size: 17px;
+    font-family: 'Tahoma', Geneva, Verdana, sans-serif;
+
+}
+.color{
+    margin: 10px 0;
+    background-color:rgb(252, 226, 201);
+    /* align-items: center; */
+}
+.color .P1{
+    font-weight: 400;
+    font-family: 'Verdana', sans-serif;
+    font-size: 21px;
+    text-align: center;
+    
+    /* padding: none; */
+    /* margin: none; */
+    /* align-items: center; */
+}
+.btn{
+    /* margin: 5px; */
+    text-align: center;
+}
+.btn button{
+    margin-top: 10px;
+    padding : 4px;
+    border: none;
+
+}
+.btn2 button{
+    margin-left: 10px;
+    /* border: none; */
+    padding: 3px;
+    border-radius: 2px;
+}
+.btn button:hover,.btn2 button:hover{
+    cursor: pointer;
+    background-color: rgb(125, 121, 121);
+    color: aliceblue;
+}
+.hed-sec,.veg{
+    margin:20px 0;
+    /* padding: 10px; */
+    /* padding: 20px; */
+}
+.veg{
+    margin:0 20px;
+    border-radius: 10px;
+    box-shadow:0 0 10px 2px rgb(142, 136, 136);
+    /* padding: 10p x; */
+    padding: 20px 20px;
+}
+.rand-m h4{
+    margin-bottom: 0;
+    font-size: 20px;
+}
+.rand-m{
+    background-color:whitesmoke;
+    padding:  3px;
+
+    width:34%;
+    text-align: center;
+    border-radius: 7px;
+   position: relative;
+   top: 75px;
+   right: 4px;
+   margin-left: 40px;
+    
+}
+
+.hed-sec h4{
+    /* margin-left: 30px; */
+    font-size: 30px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+.hed-sec {
+    background-color: bisque;
+    padding: 20px 0;
+}
+.lab{
+    justify-content: space-between;
+    align-items: center;
+    padding: 6px 5px;
+    font-size: 20px;
+
+
+}
+
+.lab h4{
+    margin-top: 10px;
+}
+.lab .fav-btn{
+    border: none;
+    background-color: rgb(254, 250, 250);
+    width: 35px;
+    padding: opx;
+}
+.lab .fav-btn i{
+    font-size: 25px;
+    /* background-color: aquamarine; */
+}
+.active{
+    background-color:white;
+}
+
+
+.meal-info-cont{
+    position: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top:0;
+    bottom:0;
+    left:0;
+    right:0;
+    /* display: none; */
+   /* height: 200px; */
+    background: rgb(155, 153, 153);
+    /* width: 100%; */
+}
+.hidden{
+    opacity: 0;
+    pointer-events: none;
+}
+.meal-info{
+    overflow-y: scroll;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: rgb(251, 252, 252);
+    /* width: 500px; */
+    padding: 1rem 1.5rem;
+    border-radius: 6px;
+    position: relative;
+    width: 500px;
+    
+}
+.meal-info h2{
+    text-align: center;
+    /* border: 1px solid black; */
+position: absolute;
+background-color: aliceblue;
+padding: 3px;
+border-radius: 5px;
+box-shadow:0 0 15px 5px rgb(255, 198, 151);
+
+
+}
+.meal-info .meal-img{
+    display: flex;
+
+    align-items: center;
+    justify-content: center;
+    /* align-content: center; */
+    width: 100%;
+    margin:10px 0;
+    /* background-color: aqua; */
+}
+.meal-info .meal-img img {
+    margin-top: 20px;
+width: 300px;
+border-radius: 10px;
+box-shadow:0 0 15px 5px rgb(169, 166, 164);
+
+
+
+}
+.meal-info .info{
+    width:450px;
+    /* scrollbar-width: 0; */
+    margin-left:40px ;
+    height: 220px;
+    font-size: 15px;
+    overflow-y: scroll;
+
+}
+.meal-info  h4{
+    margin-left:40px ;
+    margin-top: 10px;
+    color: rgb(171, 121, 29);
+}
+.meal-info ul li{
+    text-align: left;
+    list-style: circle;
+}
+.meal-info ul{
+    margin-top: 10px;
+    margin-left: 60px;
+}
+.meal-info button{
+    font-size: 20px;
+    background: none;
+    /* position:absolute; */
+    border: none;
+    
+}
+
+.meal-info .close-btn{
+    /* background-color: aqua; */
+/* text-align: right; */
+position: absolute;
+cursor: pointer;
+top: 0.5rem;
+right: 0.5rem;
+}
